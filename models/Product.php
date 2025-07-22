@@ -19,29 +19,46 @@ class Product {
     }
 
     public function getAllProducts() {
-        $query = "SELECT p.*, i.quantity 
-                  FROM products p
-                  LEFT JOIN inventory i ON p.code = i.code";
-        $result = $this->conn->query($query);
-        return $result->fetch_all(MYSQLI_ASSOC);
+    $query = "SELECT p.*, i.quantity 
+              FROM products p
+              LEFT JOIN inventory i ON p.barcode = i.code";
+
+    $result = $this->conn->query($query);
+
+    if (!$result) {
+        error_log("MySQL Error in getAllProducts(): " . $this->conn->error);
+        return [];
     }
 
+    return $result->fetch_all(MYSQLI_ASSOC);
+}
+
+
     public function getProductByBarcode($barcode, $includeQuantity = false) {
-        if ($includeQuantity) {
-            $query = "SELECT p.*, i.quantity 
-                      FROM products p
-                      LEFT JOIN inventory i ON p.code = i.code
-                      WHERE p.barcode = ?";
-        } else {
-            $query = "SELECT * FROM products WHERE barcode = ?";
-        }
-        
-        $stmt = $this->conn->prepare($query);
-        $stmt->bind_param("s", $barcode);
-        $stmt->execute();
-        $result = $stmt->get_result();
-        return $result->fetch_assoc();
+    if ($includeQuantity) {
+        $query = "SELECT p.*, i.quantity 
+                  FROM products p
+                  LEFT JOIN inventory i ON p.barcode = i.code
+                  WHERE p.barcode = ?";
+    } else {
+        $query = "SELECT * FROM products WHERE barcode = ?";
     }
+
+    $stmt = $this->conn->prepare($query);
+
+    if (!$stmt) {
+        // Log and return if SQL prepare failed
+        error_log("SQL Prepare Failed: " . $this->conn->error);
+        return false;
+    }
+
+    $stmt->bind_param("s", $barcode);
+    $stmt->execute();
+
+    $result = $stmt->get_result();
+    return $result->fetch_assoc();
+}
+
 
     public function updateInventory($code, $quantity) {
         // Check if inventory record exists

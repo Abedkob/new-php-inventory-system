@@ -20,42 +20,44 @@ class User {
 
     public function create($username, $password) {
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-        $token = bin2hex(random_bytes(32));
+        $rand_access = rand(100000, 999999); // Generate a 6-digit random number
 
-        $stmt = $this->conn->prepare("INSERT INTO user (username, password, token) VALUES (?, ?, ?)");
-        $stmt->bind_param("sss", $username, $hashedPassword, $token);
+        $stmt = $this->conn->prepare("INSERT INTO user (username, password, rand_access) VALUES (?, ?, ?)");
+        $stmt->bind_param("ssi", $username, $hashedPassword, $rand_access);
 
         if ($stmt->execute()) {
-            return $token;
+            return $rand_access;
         }
         return false;
     }
 
-public function findByUsername($username) {
-    $query = "SELECT id, username, password, token FROM user WHERE username = ?";
-    
-    // Check if prepare() succeeds
-    $stmt = $this->conn->prepare($query);
-    if ($stmt === false) {
-        throw new Exception("Prepare failed: " . $this->conn->error);
+    public function findByUsername($username) {
+        $query = "SELECT id, username, password, rand_access FROM user WHERE username = ?";
+        
+        $stmt = $this->conn->prepare($query);
+        if ($stmt === false) {
+            throw new Exception("Prepare failed: " . $this->conn->error);
+        }
+
+        $stmt->bind_param("s", $username);
+        $stmt->execute();
+        
+        return $stmt->get_result()->fetch_assoc();
     }
 
-    // Bind parameters and execute
-    $stmt->bind_param("s", $username);
-    $stmt->execute();
-    
-    return $stmt->get_result()->fetch_assoc();
-}
-
-    public function updateToken($userId, $token) {
-        $stmt = $this->conn->prepare("UPDATE user SET token = ? WHERE id = ?");
-        $stmt->bind_param("si", $token, $userId);
-        return $stmt->execute();
+    public function updateRandAccess($userId) {
+        $rand_access = rand(100000, 999999); // Generate a new 6-digit random number
+        $stmt = $this->conn->prepare("UPDATE user SET rand_access = ? WHERE id = ?");
+        $stmt->bind_param("ii", $rand_access, $userId);
+        if ($stmt->execute()) {
+            return $rand_access;
+        }
+        return false;
     }
 
-    public function findByToken($token) {
-        $stmt = $this->conn->prepare("SELECT id, username FROM user WHERE token = ?");
-        $stmt->bind_param("s", $token);
+    public function findByRandAccess($rand_access) {
+        $stmt = $this->conn->prepare("SELECT id, username FROM user WHERE rand_access = ?");
+        $stmt->bind_param("i", $rand_access);
         $stmt->execute();
         $result = $stmt->get_result();
         return $result->fetch_assoc();

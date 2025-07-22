@@ -23,14 +23,14 @@ class AuthController {
             Response::error('Username already exists');
         }
 
-        $token = $this->userModel->create($data['username'], $data['password']);
-        if (!$token) {
+        $rand_access = $this->userModel->create($data['username'], $data['password']);
+        if (!$rand_access) {
             Response::error('Registration failed');
         }
 
         Response::json([
             'message' => 'Registration successful',
-            'token' => $token
+            'rand_access' => $rand_access
         ], 201);
     }
 
@@ -47,13 +47,12 @@ class AuthController {
             Response::error('Invalid credentials');
         }
 
-        // Generate new token on login
-        $newToken = bin2hex(random_bytes(32));
-        $this->userModel->updateToken($user['id'], $newToken);
+        // Generate new rand_access on login
+        $new_rand_access = $this->userModel->updateRandAccess($user['id']);
 
         Response::json([
             'message' => 'Login successful',
-            'token' => $newToken,
+            'rand_access' => $new_rand_access,
             'user' => [
                 'id' => $user['id'],
                 'username' => $user['username']
@@ -61,20 +60,17 @@ class AuthController {
         ]);
     }
 
-    public function validateToken() {
-        $token = $headers['Authorization'] ?? null;
-        $headers = getallheaders();
-
-        if (!$token) {
-            Response::error('Authorization token required', 401);
+    public function validateRandAccess() {
+        $data = json_decode(file_get_contents('php://input'), true);
+        
+        if (!isset($data['rand_access'])) {
+            Response::error('rand_access required in request body', 401);
         }
 
-        // Remove 'Bearer ' prefix if present
-        $token = str_replace('Bearer ', '', $token);
-
-        $user = $this->userModel->findByToken($token);
+        $rand_access = $data['rand_access'];
+        $user = $this->userModel->findByRandAccess($rand_access);
         if (!$user) {
-            Response::error('Invalid token', 401);
+            Response::error('Invalid rand_access', 401);
         }
 
         Response::json([

@@ -35,43 +35,42 @@ $requestUri = str_replace($basePath, '', $requestUri);
 $method = $_SERVER['REQUEST_METHOD'];
 
 // Get Authorization header
-$headers = getallheaders();
-$token = $headers['Authorization'] ?? null;
-if ($token) {
-    $token = str_replace('Bearer ', '', $token);
-}
+$data = json_decode(file_get_contents('php://input'), true);
+$rand_access = $data['rand_access'] ?? null;
+
+
 
 // Route requests
 switch ($requestUri) {
     // Authentication endpoints
-    case '/register':
-        if ($method === 'POST') {
-            $authController->register();
-        } else {
-            Response::error('Method not allowed', 405);
-        }
-        break;
-        
-    case '/login':
-        if ($method === 'POST') {
-            $authController->login();
-        } else {
-            Response::error('Method not allowed', 405);
-        }
-        break;
-        
-    case '/validate-token':
-        if ($method === 'GET') {
-            $authController->validateToken($token);
-        } else {
-            Response::error('Method not allowed', 405);
-        }
-        break;
+   case '/register':
+    if ($method === 'POST') {
+        $authController->register();
+    } else {
+        Response::error('Method not allowed', 405);
+    }
+    break;
+    
+case '/login':
+    if ($method === 'POST') {
+        $authController->login();
+    } else {
+        Response::error('Method not allowed', 405);
+    }
+    break;
+    
+case '/validate-access':
+    if ($method === 'POST') {  
+        $authController->validateRandAccess();
+    } else {
+        Response::error('Method not allowed', 405);
+    }
+    break;
         
     // Product endpoints
     case '/products':
-        if ($method === 'GET') {
-            $productController->getAllProducts($token);
+        if ($method === 'POST') {
+            $productController->getAllProducts($rand_access);
         } else {
             Response::error('Method not allowed', 405);
         }
@@ -89,31 +88,40 @@ switch ($requestUri) {
         }
         break;
         
-    case '/products/by-barcode-with-quantity':
-        if ($method === 'GET') {
-            $barcode = $_GET['barcode'] ?? null;
-            if (!$barcode) {
-                Response::error('Barcode parameter is required', 400);
-            }
-            $productController->getProductByBarcode($barcode, true, $token);
-        } else {
-            Response::error('Method not allowed', 405);
-        }
-        break;
+   case '/products/by-barcode-with-quantity':
+    if ($method === 'GET') {
+        $barcode = $_GET['barcode'] ?? null;
+        $rand_access = $_GET['rand_access'] ?? null; // Get from query params
         
-    case '/inventory/update':
-        if ($method === 'POST') {
-            $data = json_decode(file_get_contents('php://input'), true);
-            if (empty($data['code']) || !isset($data['quantity'])) {
-                Response::error('Code and quantity are required', 400);
-            }
-            $productController->updateInventory($data['code'], $data['quantity'], $token);
-        } else {
-            Response::error('Method not allowed', 405);
+        if (!$barcode) {
+            Response::error('Barcode parameter is required', 400);
         }
-        break;
+        if (!$rand_access) {
+            Response::error('rand_access parameter is required', 400);
+        }
         
-    default:
-        Response::error('Endpoint not found', 404);
-        break;
+        $productController->getProductByBarcode($barcode, true, $rand_access);
+    } else {
+        Response::error('Method not allowed', 405);
+    }
+    break;
+        
+   case '/inventory/update':
+    if ($method === 'POST') {
+        $data = json_decode(file_get_contents('php://input'), true);
+        if (empty($data['code']) || !isset($data['quantity'])) {
+            Response::error('Code and quantity are required', 400);
+        }
+        if (!isset($data['rand_access'])) {
+            Response::error('rand_access is required', 400);
+        }
+        $productController->updateInventory($data['code'], $data['quantity'], $data['rand_access']);
+    } else {
+        Response::error('Method not allowed', 405);
+    }
+    break;
+
+default:
+    Response::error('Endpoint not found', 404);
+    break;
 }
