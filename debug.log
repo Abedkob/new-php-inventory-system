@@ -4984,3 +4984,1995 @@ Array
     [REQUEST_METHOD] => GET
     [TIME] => 2025-07-22 13:02:58
 )
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode?barcode=5281023000023
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-22 13:49:10
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode?barcode=5281023000023
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-22 13:49:14
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode?barcode=6281020318335
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-22 13:49:24
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/register
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:51:08
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/register
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:51:19
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:51:45
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:51:51
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:52:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode-with-quantity?barcode=5281023000023&rand_access=346429
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-22 13:52:31
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/inventory/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:52:40
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode-with-quantity?barcode=5281023000023&rand_access=346429
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-22 13:52:41
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode-with-quantity?barcode=6281020318335&rand_access=346429
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-22 13:52:54
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/inventory/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:52:59
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode-with-quantity?barcode=6281020318335&rand_access=346429
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-22 13:52:59
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:53:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:53:12
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:53:25
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:53:54
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode-with-quantity?barcode=5281023000023&rand_access=185979
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-22 13:54:41
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-22 13:54:58
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode?barcode=5281023000023
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-22 13:57:40
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode?barcode=6281020318335
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 08:51:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode?barcode=6281020318335
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-23 08:51:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 08:56:57
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 08:56:57
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 08:57:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 08:57:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:01:19
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:01:19
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:01:21
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:01:21
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:01:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:01:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:03:05
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:03:05
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:03:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:03:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:04:17
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:04:17
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:04:46
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:04:46
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:06:27
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:06:27
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:08:42
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:08:42
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:08:47
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:08:47
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:13:47
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:13:47
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:15:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:15:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:16:37
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:16:37
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:16:50
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:16:50
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:53:45
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:53:45
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:54:08
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:54:08
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:54:16
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:54:16
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 09:54:17
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 09:54:17
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 10:01:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 10:01:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-23 10:01:02
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-23 10:01:02
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-24 09:54:37
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 09:54:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 09:54:49
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 09:55:07
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update-official-rates
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 10:02:11
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update-official-rates
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 10:02:29
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update-official-rates
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 10:02:47
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 10:09:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 10:09:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 10:23:52
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 10:23:52
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update-official-rates
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 10:29:52
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update-official-rates
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 10:29:52
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 10:29:59
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 10:29:59
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 10:34:04
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 10:34:04
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update-official-rates
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 10:34:10
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update-official-rates
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 10:34:10
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 10:51:01
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 10:51:01
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:12:14
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:12:21
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:12:41
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-24 11:13:19
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:13:23
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:23:36
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:23:36
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:23:41
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:23:41
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:23:49
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:23:49
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:23:51
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:23:51
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:24:04
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:24:04
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:24:09
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:24:13
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:24:13
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:24:51
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:24:51
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:29:01
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:29:01
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:29:06
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:29:06
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:29:31
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:29:47
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:29:47
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:29:53
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:29:53
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:29:56
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:29:56
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:30:21
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:30:21
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:31:32
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:31:32
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:31:35
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:31:35
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:31:42
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:31:42
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:32:05
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:32:05
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:32:06
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:32:06
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:32:06
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:32:06
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:33:10
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:34:26
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:34:42
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:34:52
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:34:52
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:35:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:35:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:37:36
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:37:36
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:38:53
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:38:53
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:38:55
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:38:55
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:39:01
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:39:01
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:40:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:40:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:40:56
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:40:56
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:40:58
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:40:58
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:41:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:41:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:43:36
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:43:36
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:43:38
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:43:38
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:44:29
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:44:29
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:44:31
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:44:31
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:44:39
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/update_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:44:39
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:45:24
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:45:24
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:45:26
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:45:26
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:45:31
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:45:31
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:47:45
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:47:45
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:47:46
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:47:46
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:49:16
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:49:16
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:49:17
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:49:17
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:49:23
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:49:23
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:49:25
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:49:25
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:49:34
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:49:34
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:49:38
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:49:38
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:49:45
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:49:45
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:49:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:49:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:56:52
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:56:52
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:56:54
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:56:54
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 11:57:11
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 11:57:11
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:02:47
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:02:47
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:04:15
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:04:15
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/delete_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:04:22
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/delete_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:04:22
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:04:22
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:04:22
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:04:27
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:04:36
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:04:36
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/delete_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:04:40
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/delete_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:04:40
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:04:40
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:06:09
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:06:09
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/delete_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:06:15
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/delete_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:06:15
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:06:15
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:06:15
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/delete_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:07:46
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/delete_product
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:08:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/delete_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:08:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:08:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:08:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:09:20
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:09:20
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:11:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:11:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:11:19
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:11:19
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:12:09
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:12:09
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:13:09
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:13:09
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:13:16
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:13:16
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:38:26
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:38:42
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:50:09
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:50:09
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:50:37
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:50:37
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:50:49
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:50:49
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:51:10
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:51:10
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:52:56
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:52:56
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:53:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:53:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:57:36
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:57:36
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 12:57:51
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 12:57:51
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:03:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:03:00
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:03:55
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:03:55
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:04:31
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:04:32
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:04:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:04:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:05:08
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:05:08
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:05:28
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:05:28
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:06:14
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:06:14
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:07:40
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:07:40
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:08:02
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:08:02
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:08:16
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:08:16
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:08:32
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:08:32
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:08:55
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:08:55
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:10:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:10:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:10:49
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:10:49
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:12:32
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:12:32
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:12:33
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:12:33
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:13:22
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:13:22
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:14:07
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:14:07
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:14:11
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:14:11
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:14:31
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:14:31
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:14:35
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:14:35
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:14:59
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:14:59
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:16:23
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:16:23
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:16:27
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:16:27
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:18:01
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:18:01
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:18:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:18:03
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:18:07
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:18:42
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:18:42
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:18:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:18:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:18:46
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => OPTIONS
+    [TIME] => 2025-07-24 13:18:50
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:18:50
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:18:54
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/login
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:22:50
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:23:10
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:23:14
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update-official-rates
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:23:24
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:23:25
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:23:27
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:23:35
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:23:45
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:23:48
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/delete_product
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:24:12
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:24:12
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode-with-quantity?barcode=5285009761878&rand_access=857947
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-24 13:24:19
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/create
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:24:33
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode-with-quantity?barcode=5285009761878&rand_access=857947
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-24 13:24:38
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/inventory/update
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:24:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products/by-barcode-with-quantity?barcode=5285009761878&rand_access=857947
+    [REQUEST_METHOD] => GET
+    [TIME] => 2025-07-24 13:24:43
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:24:46
+)
+Array
+(
+    [REQUEST_URI] => /api_auth/products
+    [REQUEST_METHOD] => POST
+    [TIME] => 2025-07-24 13:24:48
+)
